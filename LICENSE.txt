@@ -43,6 +43,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -------------------------------------------------------------------------------
 
+
+Licenses for third-party functions are listed below:
+
 -------------------------------------------------------------------------------
 weightedcorrs.m
 
