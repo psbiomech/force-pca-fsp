@@ -1,11 +1,11 @@
 All code in this package written by Prasanna Sritharan and Mario Andrés Muñoz
-except for the following third party functions:
+except for the following third-party functions:
 
-	* weightedcorrs.m by Liber Eleutherios
+	* weightedcorrs.m by Liber Eleutherios 
 	* mes.m by Harald Hentschke & Maik Stüttgen
 	* fast_corr.m by Elliot Layden
 	* shadedplot.m by Dave Van Tol
-	* IndFeat.m by Will Dwinnell
+	* IndFeat.m by Will Dwinnell (dedicated to the public domain)
 
 -------------------------------------------------------------------------------
 The contents of this software package, except for those third party functions
