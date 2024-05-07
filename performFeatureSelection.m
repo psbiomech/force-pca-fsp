@@ -15,7 +15,7 @@ function [final, weissind, training] = performFeatureSelection(paselected, pcain
 %       Classifier
 
 
-% user settings
+% User settings
 user = getUserScriptSettings();
 outpath = user.OUTPATH1;
 limbs = user.LIMBS;
@@ -61,7 +61,7 @@ for b=1:2
     indfeatout = IndFeat(training.(limbs{b}).data, pcainfo.(limbs{b}).(['is' groups{1}]));
     
     % Retain only significant PCs
-    issigpc = indfeatout>=2.0;  % z-scores
+    issigpc = indfeatout>=2.0;  % t-scores
     weissind.(limbs{b}).data = training.(limbs{b}).data(:, issigpc);
     weissind.(limbs{b}).labels = training.(limbs{b}).labels(issigpc);
     weissind.(limbs{b}).trainidx = find(issigpc);

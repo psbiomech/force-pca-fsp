@@ -1,7 +1,5 @@
 # WEIGHTED PCA-BASED FEATURE SELECTION PIPELINE
 
-[![DOI](https://zenodo.org/badge/747145339.svg)](https://zenodo.org/doi/10.5281/zenodo.10556573)
-
 Authors: Prasanna Sritharan and Mario Andrés Muñoz
 
 Correspondence: p.sritharan@latrobe.edu.au
